@@ -1301,9 +1301,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>SystemAudioVolume</key>
-				<data>
-				Rg==
-				</data>
+				<integer>30</integer>
 				<key>boot-args</key>
 				<string>-v keepsyms=1</string>
 				<key>csr-active-config</key>
@@ -1424,22 +1422,23 @@
 			<key>AudioCodec</key>
 			<integer>0</integer>
 			<key>AudioDevice</key>
-			<string>PciRoot(0x0)/Pci(0x1b,0x0)</string>
+			<string>PciRoot(0x0)/Pci(0x1f,0x3)</string>
 			<key>AudioOut</key>
 			<integer>0</integer>
 			<key>AudioSupport</key>
-			<false/>
+			<true/>
 			<key>MinimumVolume</key>
-			<integer>20</integer>
+			<integer>30</integer>
 			<key>PlayChime</key>
-			<false/>
+			<string>Enabled</string>
 			<key>VolumeAmplifier</key>
-			<integer>0</integer>
+			<integer>60</integer>
 		</dict>
 		<key>ConnectDrivers</key>
 		<true/>
 		<key>Drivers</key>
 		<array>
+			<string>AudioDxe.efi</string>
 			<string>HfsPlus.efi</string>
 			<string>OpenRuntime.efi</string>
 		</array>
