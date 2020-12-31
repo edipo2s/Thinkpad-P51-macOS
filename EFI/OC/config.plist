@@ -56,6 +56,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Contains VoodooPS2Controller settings to fix the TrackPoint jumpiness</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-Thinkpad_Trackpad.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>AppleBusPowerController requires a USBX device to supply USB power properties</string>
 				<key>Enabled</key>
 				<true/>
