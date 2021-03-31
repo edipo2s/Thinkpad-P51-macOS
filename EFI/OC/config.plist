@@ -40,6 +40,22 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Enable NumLock at boot</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-NumLockOnAtBoot.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Add support for NumLock key</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-NumLockSupport.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Allow the kernel's XCPM(XNU's CPU Power Management) to manage our CPU's power management</string>
 				<key>Enabled</key>
 				<true/>
@@ -866,7 +882,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext</string>
 				<key>Comment</key>
-				<string>v2.2.1</string>
+				<string>v2.2.2</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -884,7 +900,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
 				<key>Comment</key>
-				<string>v2.2.1</string>
+				<string>v2.2.2</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -902,7 +918,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
 				<key>Comment</key>
-				<string>v2.2.1</string>
+				<string>v2.2.2</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -920,7 +936,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext</string>
 				<key>Comment</key>
-				<string>v2.2.1</string>
+				<string>v2.2.2</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -938,7 +954,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
 				<key>Comment</key>
-				<string>v2.2.1</string>
+				<string>v2.2.2</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
