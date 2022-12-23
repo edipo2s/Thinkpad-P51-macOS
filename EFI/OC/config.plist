@@ -48,14 +48,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Allow the kernel's XCPM(XNU's CPU Power Management) to manage our CPU's power management.</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PLUG.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Defines PNLF device with a _UID of 16 for backlight control</string>
 				<key>Enabled</key>
 				<true/>
