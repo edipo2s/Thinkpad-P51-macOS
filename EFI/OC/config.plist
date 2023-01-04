@@ -203,6 +203,10 @@
 				<data>AAAAAA==</data>
 			</dict>
 			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>FPU to MATH -- Purely cosmetic</string>
 				<key>Count</key>
@@ -229,6 +233,10 @@
 				<data>RFNEVA==</data>
 			</dict>
 			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
 				<key>Comment</key>
 				<string>Change SAT1 to SATA -- Purely cosmetic</string>
 				<key>Count</key>
@@ -1660,7 +1668,7 @@
 			<key>MaximumGain</key>
 			<integer>-35</integer>
 			<key>MinimumAssistGain</key>
-			<integer>-30</integer>
+			<integer>-35</integer>
 			<key>MinimumAudibleGain</key>
 			<integer>-55</integer>
 			<key>PlayChime</key>
@@ -1668,7 +1676,7 @@
 			<key>ResetTrafficClass</key>
 			<false/>
 			<key>SetupDelay</key>
-			<integer>0</integer>
+			<integer>500</integer>
 		</dict>
 		<key>ConnectDrivers</key>
 		<true/>
